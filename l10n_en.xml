@@ -110,6 +110,15 @@ The MP-Manager has been successfully configured."/>
 <e k="mpManager_konto_items_outputsWage" v="Expenses - Salaries"/>
 <e k="mpManager_konto_items_yearBalance" v="Balance Sheet"/>
 
+<!-- OpenPosts -->
+<e k="mpManager_openPosts_items_datum" v="Date/Time"/>
+<e k="mpManager_openPosts_items_name" v="Name"/>
+<e k="mpManager_openPosts_items_category" v="Category"/>
+<e k="mpManager_openPosts_items_addInfos" v="Information"/>
+<e k="mpManager_openPosts_items_sellTo" v="Purchase from / Sent to"/>
+<e k="mpManager_openPosts_items_num" v="Amount/Liters/Number"/>
+<e k="mpManager_openPosts_items_balance" v="Total Price"/>
+	
 <!-- MoneyOutput -->
 <e k="mpManager_moneyoutput_items_datum" v="Date/Time"/>
 <e k="mpManager_moneyoutput_items_name" v="Name"/>
