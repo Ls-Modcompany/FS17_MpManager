@@ -1,452 +1,460 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <l10n><elements>
-<e k="mpManagerConfig_header" v="MP-Manager - Configuration"/>
-<e k="mpManagerConfig_step1_header" v='Welcome to "MP-Manager!"'/>
-<e k="mpManagerConfig_step1_headerStep" v="Step:"/>
-<e k="mpManagerConfig_step1_text" v='To begin using the "MP-Manager" it must first be configured.
-The configuration wizard will guide you through the configuration step by step on the following pages.
-For support and/or error reports, please contact us @ ls-modcompany.com.
-To start the configuration now, click "Start Configuration" below".
+<e k="mpManagerConfig_header" v="MP-Manager - Konfiguracja"/>
+<e k="mpManagerConfig_step1_header" v='Witamy w "MP-Manager!"'/>
+<e k="mpManagerConfig_step1_headerStep" v="Krok:"/>
+<e k="mpManagerConfig_step1_text" v='Zanim zaczniesz używać "MP-Manager", musisz go wpierw skonfigurować.
+	Kreator konfiguracji poprowadzi Cię przez proces konfiguracji krok po kroku na kolejnych stronach.
+	W sprawie pomocy lub/i zgłaszaniu błędów, proszę o kontakt na "ls-modcompany.com".
+	Aby rozpocząć konfigurację, kliknij "Rozpocznij konfigurację" poniżej.
 	
-	We hope you have fun!'/>
+	Życzymy miłej zabawy!'/>
+<e k="mpManagerConfig_breakConfig" v="Anuluj konfigurację"/>
+<e k="mpManagerConfig_startConfig" v="Rozpocznij konfigurację"/>
+<e k="mpManagerConfig_continueConfig" v="Kontynuuj"/>
+<e k="mpManagerConfig_continueBackConfig" v="Wróć"/>
 
-<e k="mpManagerConfig_breakConfig" v="Cancel Configuration"/>
-<e k="mpManagerConfig_startConfig" v="Start Configuration"/>
-<e k="mpManagerConfig_continueConfig" v="Continue"/>
-<e k="mpManagerConfig_continueBackConfig" v="Back"/>
+<e k="mpManagerConfig_step2_header" v="Admin"/>
+<e k="mpManagerConfig_step2_info" v="Tutaj ustalasz, kto jest adminem gry. Ważne: Upewnij się, że używasz nazw graczy z gry, gdy tworzysz adminów."/>	
+<e k="mpManagerConfig_step2_removeAdmin" v="Usuń wybranego admina"/>
+<e k="mpManagerConfig_step2_addAdmin" v="Dodaj admina"/>
 
-<e k="mpManagerConfig_step2_header" v="Administration"/>
-<e k="mpManagerConfig_step2_info" v="Determine who the game Admins are. Important: Please make sure to use the ingame names of the Administrators when creating."/>	
-<e k="mpManagerConfig_step2_removeAdmin" v="Remove selected Admin"/>
-<e k="mpManagerConfig_step2_addAdmin" v="Add Admin"/>
+<e k="mpManagerConfig_step3_header" v="Gracze"/>
+<e k="mpManagerConfig_step3_info" v="Tutaj możesz dodać graczy. Ważne: Upewnij się, że używasz nazw graczy z gry, gdy ich tworzysz."/>		
+<e k="mpManagerConfig_step3_removePlayer" v="Usuń wybranego gracza"/>
+<e k="mpManagerConfig_step3_addPlayer" v="Dodaj gracza"/>
 
-<e k="mpManagerConfig_step3_header" v="Players"/>
-<e k="mpManagerConfig_step3_info" v="Add players here. Important: Please make sure to use the ingame player name when creating."/>		
-<e k="mpManagerConfig_step3_removePlayer" v="Remove selected Player"/>
-<e k="mpManagerConfig_step3_addPlayer" v="Add Player"/>
+<e k="mpManagerConfig_step4_header" v="Farmy"/>
+<e k="mpManagerConfig_step4_info" v="Tutaj możesz dodać swoją farmę."/>
+<e k="mpManagerConfig_step4_removeFarm" v="Usuń wybraną farmę"/>
+<e k="mpManagerConfig_step4_addFarm" v="Dodaj farmę"/>
 
-<e k="mpManagerConfig_step4_header" v="Farm"/>
-<e k="mpManagerConfig_step4_info" v="Add or Remove Farms."/><!-- @ CHaWo -->
-<e k="mpManagerConfig_step4_removeFarm" v="Remove selected Farm"/>
-<e k="mpManagerConfig_step4_addFarm" v="Add Farm"/>
+<e k="mpManagerConfig_step5_header" v="Przydział gracza"/>
+<e k="mpManagerConfig_step5_info" v="Tutaj możesz przydzielić graczy do farm."/>		
+<e k="mpManagerConfig_step5_editSort" v="Edytuj przydział"/>
 
-<e k="mpManagerConfig_step5_header" v="Player Assignment"/>
-<e k="mpManagerConfig_step5_info" v="Assign players to each farm."/>		
-<e k="mpManagerConfig_step5_editSort" v="Edit assignment"/>
+<e k="mpManagerConfig_step6_header" v="Kierownik farmy"/>
+<e k="mpManagerConfig_step6_info" v="Tutaj możesz wybierać, który gracz będzie kierownikiem danej farmy."/>
+<e k="mpManagerConfig_step6_editLeader" v="Edytuj kierownika farmy"/>
 
-<e k="mpManagerConfig_step6_header" v="Farm Leader"/><!-- @ CHaWo -->
-<e k="mpManagerConfig_step6_info" v="Choose which player is the leader of each farm."/><!-- @ CHaWo -->
-<e k="mpManagerConfig_step6_editLeader" v="Edit Farm Leader"/><!-- @ CHaWo -->
+<e k="mpManagerConfig_AddAdmin_header" v="MP-Manager - Nowy admin"/>
+<e k="mpManagerConfig_AddAdmin_text" v="Stwórz nowego admina..."/>
+<e k="mpManagerConfig_AddAdmin_textInfo" v="'%s' został adminem."/>
+<e k="mpManagerConfig_AddAdmin_textInfo2" v="'%s' jest już adminem."/>
+<e k="mpManagerConfig_AddAdmin_textInfo3" v="Wpisz nazwę!"/>
+<e k="mpManagerConfig_AddAdmin_button" v="Kontynuuj"/>
+<e k="mpManagerConfig_RemoveAdmin_text" v="Usunąć admina '%s'?"/>
 
-<e k="mpManagerConfig_AddAdmin_header" v="MP-Manager - New Administrator"/>
-<e k="mpManagerConfig_AddAdmin_text" v="Create a new Admin ..."/>
-<e k="mpManagerConfig_AddAdmin_textInfo" v="'%s' was successfully added as an Admin."/>
-<e k="mpManagerConfig_AddAdmin_textInfo2" v="'%s' is already Admin."/>
-<e k="mpManagerConfig_AddAdmin_textInfo3" v="Enter a name!"/>
-<e k="mpManagerConfig_AddAdmin_button" v="Continue"/>
-<e k="mpManagerConfig_RemoveAdmin_text" v="Remove '%s' as administrator?"/>
+<e k="mpManagerConfig_AdminPw_header" v="MP-Manager - Hasło admina"/>
+<e k="mpManagerConfig_AdminPw_text" v="Ustal hasło dla strefy admina."/>
+<e k="mpManagerConfig_AdminPw_textInfo" v="Ustalone hasło to '%s'."/>
+<e k="mpManagerConfig_AdminPw_button" v="Kontynuuj"/>
 
-<e k="mpManagerConfig_AdminPw_header" v="MP-Manager - Admin Password"/>
-<e k="mpManagerConfig_AdminPw_text" v="Set a password for the administration area."/>
-<e k="mpManagerConfig_AdminPw_textInfo" v="'%s' was successfully created as a password."/>
-<e k="mpManagerConfig_AdminPw_button" v="Continue"/>
+<e k="mpManagerConfig_AddUser_header" v="MP-Manager - Nowy gracz"/>
+<e k="mpManagerConfig_AddUser_text" v="Dodaj nowego gracza..."/>
+<e k="mpManagerConfig_AddUser_textInfo" v="'%s' został graczem."/>
+<e k="mpManagerConfig_AddUser_textInfo2" v="'%s' jest już graczem."/>
+<e k="mpManagerConfig_AddUser_textInfo3" v="Wpisz nazwę!"/>
+<e k="mpManagerConfig_AddUser_button" v="Kontynuuj"/>
+<e k="mpManagerConfig_RemoveUser_text" v="Usunąć gracza '%s'?"/>
 
-<e k="mpManagerConfig_AddUser_header" v="MP-Manager - New User"/>
-<e k="mpManagerConfig_AddUser_text" v="Add a new user ..."/>
-<e k="mpManagerConfig_AddUser_textInfo" v="'%s' was successfully added."/>
-<e k="mpManagerConfig_AddUser_textInfo2" v="'%s' is already a user."/>
-<e k="mpManagerConfig_AddUser_textInfo3" v="Enter a name!"/>
-<e k="mpManagerConfig_AddUser_button" v="Continue"/>
-<e k="mpManagerConfig_RemoveUser_text" v="Remove '%s' as a user?"/>
+<e k="mpManagerConfig_AddFarm_header" v="MP-Manager - Nowa farma"/>
+<e k="mpManagerConfig_AddFarm_text" v="Stwórz nową farmę..."/>
+<e k="mpManagerConfig_AddFarm_textInfo" v="Farma '%s' została stworzona."/>
+<e k="mpManagerConfig_AddFarm_textInfo2" v="Farma '%s' już istnieje."/>
+<e k="mpManagerConfig_AddFarm_textInfo3" v="Wpisz nazwę!"/>
+<e k="mpManagerConfig_AddFarm_button" v="Kontynuuj"/>
+<e k="mpManagerConfig_RemoveFarm_text" v="Usunąć farmę '%s'?"/>
 
-<e k="mpManagerConfig_AddFarm_header" v="MP-Manager - New Farm"/>
-<e k="mpManagerConfig_AddFarm_text" v="Create a new farm ..."/>
-<e k="mpManagerConfig_AddFarm_textInfo" v="Farm '%s' was successfully created."/>
-<e k="mpManagerConfig_AddFarm_textInfo2" v="'%s' already exists."/>
-<e k="mpManagerConfig_AddFarm_textInfo3" v="Enter a name!"/>
-<e k="mpManagerConfig_AddFarm_button" v="Continue"/>
-<e k="mpManagerConfig_RemoveFarm_text" v="Remove farm '%s'?"/>
+<e k="mpManagerConfig_FarmUser_header" v="MP-Manager - Pracownik farmy"/>
+<e k="mpManagerConfig_FarmUser_text" v="Określ, na której farmie powinien pracować '%s'."/>
+<e k="mpManagerConfig_FarmUser_textInfo" v="Pracownik został pomyślnie przydzielony do farmy '%s'."/>
+<e k="mpManagerConfig_FarmUser_button" v="Kontynuuj"/>
 
-<e k="mpManagerConfig_FarmUser_header" v="MP-Manager - Hofeinteilung"/><!-- @ CHaWo -->
-<e k="mpManagerConfig_FarmUser_text" v="Determine which farm %s should belong to."/>
-<e k="mpManagerConfig_FarmUser_textInfo" v="Farm allocation for '%s' has been successfully changed."/>
-<e k="mpManagerConfig_FarmUser_button" v="Continue"/>
+<e k="mpManagerConfig_FarmLeader_header" v="MP-Manager - Kierownik farmy"/>
+<e k="mpManagerConfig_FarmLeader_text" v="Przypisz kierownika dla farmy %s."/>
+<e k="mpManagerConfig_FarmLeader_textInfo" v="'%s' został kierownikiem farmy."/>
+<e k="mpManagerConfig_FarmLeader_error1" v="Nie można ustalić kierownika dla farmy %s. Nie ma przypisanych graczy do tej farmy."/>
+<e k="mpManagerConfig_FarmLeader_button" v="Kontynuuj"/>
 
-<e k="mpManagerConfig_FarmLeader_header" v="MP-Manager - Farm Leader"/><!-- @ CHaWo -->
-<e k="mpManagerConfig_FarmLeader_text" v="Lege den Hofleiter von %s fest."/><!-- @ CHaWo -->
-<e k="mpManagerConfig_FarmLeader_textInfo" v="Hofleiter für '%s' wurde erfolgreich geändert."/><!-- @ CHaWo -->
-<e k="mpManagerConfig_FarmLeader_error1" v="Für Hof %s kann keinen Hofleiter festgelegt werden. Diesem Hof sind keine Mitspieler zugeteilt."/><!-- @ CHaWo -->
-<e k="mpManagerConfig_FarmLeader_button" v="Continue"/>
+<e k="mpManagerConfig_FarmMoney_header" v="MP-Manager - Kapitał początkowy"/>
+<e k="mpManagerConfig_FarmMone_text" v="Określić kapitał początkowy dla każdej farmy"/>
+<e k="mpManagerConfig_FarmMone_textInfo" v="Kapitał początkowy został ustalony na %s"/>
+<e k="mpManagerConfig_FarmMone_button" v="Kontynuuj"/>
 
-<e k="mpManagerConfig_FarmMoney_header" v="MP-Manager - Starting Capital"/>
-<e k="mpManagerConfig_FarmMone_text" v="Determine the starting capital of the farms"/>
-<e k="mpManagerConfig_FarmMone_textInfo" v="Starting capital has been set to %s"/>
-<e k="mpManagerConfig_FarmMone_button" v="Continue"/>
+<e k="mpManagerConfig_error1" v="Nie utworzono adminów."/>
+<e k="mpManagerConfig_error2" v="Nie utworzono graczy."/>
+<e k="mpManagerConfig_error3" v="A co z graczem '%s'?"/>
+<e k="mpManagerConfig_error4" v="Nie utworzono żadnych farm."/>
+<e k="mpManagerConfig_error5" v="A co z farmą '%s'?"/>
+<e k="mpManagerConfig_error6" v="Musisz wpisać hasło!"/>
+<e k="mpManagerConfig_error7" v="'%s' aktualnie konfiguruje MP-Manager."/>
+<e k="mpManagerConfig_error8" v="Musisz wpisać początkowy kapitał!"/>
 
-<e k="mpManagerConfig_error1" v="No Administrators were created."/>
-<e k="mpManagerConfig_error2" v="No Players were created."/>
-<e k="mpManagerConfig_error3" v="Conflict with player %s."/>
-<e k="mpManagerConfig_error4" v="No farms were created."/>
-<e k="mpManagerConfig_error5" v="Error at Farm %s."/>
-<e k="mpManagerConfig_error6" v="You need to enter a password!"/>
-<e k="mpManagerConfig_error7" v="%s is currently configuring the MP-Manager."/>
-<e k="mpManagerConfig_error8" v="You must enter a starting capital!"/>
-
-<e k="mpManagerConfig_finish" v="Congratulations! 
-The MP-Manager has been successfully configured."/>
-<e k="mpManagerInfo_header" v="MP-Manager - Information"/>
+<e k="mpManagerConfig_finish" v="Gratulacje! 
+MP-Manager został skonfigurowany pomyślnie."/>
+<e k="mpManagerInfo_header" v="MP-Manager - Info"/>
 <e k="mpManagerInfo_button" v="OK"/>
 <e k="mpManagerCheck_header" v="MP-Manager"/>
-<e k="mpManagerCheck_buttonYes" v="Yes"/>
-<e k="mpManagerCheck_buttonNo" v="No"/>
+<e k="mpManagerCheck_buttonYes" v="Tak"/>
+<e k="mpManagerCheck_buttonNo" v="Nie"/>
 
-<e k="mpManager_button" v="Close"/>
+<e k="mpManager_button" v="Zamknij"/>
 
 <!-- Konto -->
-<e k="mpManager_konto_items_farm" v="Farm"/>
-<e k="mpManager_konto_items_farmleader" v="Farm Leader"/>
-<e k="mpManager_konto_items_inputs" v="Revenue"/>
-<e k="mpManager_konto_items_outputs" v="Expenses"/>
-<e k="mpManager_konto_items_outputsWage" v="Expenses - Salaries"/>
-<e k="mpManager_konto_items_yearBalance" v="Balance Sheet"/>
+<e k="mpManager_konto_items_farm" v="Farma"/>
+<e k="mpManager_konto_items_farmleader" v="Kierownik farmy"/>
+<e k="mpManager_konto_items_inputs" v="Dochód"/>
+<e k="mpManager_konto_items_outputs" v="Wydatki"/>
+<e k="mpManager_konto_items_outputsWage" v="Wydatki - Wynagrodzenia"/>
+<e k="mpManager_konto_items_yearBalance" v="Bilans"/>
+
+<!-- OpenPosts -->
+<e k="mpManager_openPosts_items_datum" v="Data/Czas"/>
+<e k="mpManager_openPosts_items_name" v="Nazwa"/>
+<e k="mpManager_openPosts_items_category" v="Kategoria"/>
+<e k="mpManager_openPosts_items_addInfos" v="Informacja"/>
+<e k="mpManager_openPosts_items_sellTo" v="Od/Do"/>
+<e k="mpManager_openPosts_items_num" v="Ilość/Litry/Numer"/>
+<e k="mpManager_openPosts_items_balance" v="Cena całkowita"/>
 
 <!-- MoneyOutput -->
-<e k="mpManager_moneyoutput_items_datum" v="Date / Time"/>
-<e k="mpManager_moneyoutput_items_name" v="Name"/>
-<e k="mpManager_moneyoutput_items_category" v="Category"/>
-<e k="mpManager_moneyoutput_items_addInfos" v="Information"/>
-<e k="mpManager_moneyoutput_items_sellTo" v="Purchase from / Sent to"/>
-<e k="mpManager_moneyoutput_items_num" v="Amount / Liters / Number"/>
-<e k="mpManager_moneyoutput_items_balance" v="Total Price"/>
+<e k="mpManager_moneyoutput_items_datum" v="Data/Czas"/>
+<e k="mpManager_moneyoutput_items_name" v="Nazwa"/>
+<e k="mpManager_moneyoutput_items_category" v="Kategoria"/>
+<e k="mpManager_moneyoutput_items_addInfos" v="Informacja"/>
+<e k="mpManager_moneyoutput_items_sellTo" v="Kupione z/Wysłane do"/>
+<e k="mpManager_moneyoutput_items_num" v="Ilość/Litry/Numer"/>
+<e k="mpManager_moneyoutput_items_balance" v="Cena całkowita"/>
 
 <!-- MoneyInput -->
-<e k="mpManager_moneyinput_items_datum" v="Date / Time"/>
-<e k="mpManager_moneyinput_items_name" v="Name"/>
-<e k="mpManager_moneyinput_items_category" v="Category"/>
-<e k="mpManager_moneyinput_items_addInfos" v="Information"/>
-<e k="mpManager_moneyinput_items_sellTo" v="Revenue / Receipt of"/>
-<e k="mpManager_moneyinput_items_num" v="Amount / Liters / Number"/>
-<e k="mpManager_moneyinput_items_balance" v="Total Price"/>
-<e k="mpManager_moneyinput_automaticIncome" v="Automatic payment"/>
-<e k="mpManager_moneyinput_automaticIncome2" v="Automatic payment - Storage costs"/>
+<e k="mpManager_moneyinput_items_datum" v="Data/Czas"/>
+<e k="mpManager_moneyinput_items_name" v="Nazwa"/>
+<e k="mpManager_moneyinput_items_category" v="Kategoria"/>
+<e k="mpManager_moneyinput_items_addInfos" v="Informacja"/>
+<e k="mpManager_moneyinput_items_sellTo" v="Dochód/Odbiór od"/>
+<e k="mpManager_moneyinput_items_num" v="Ilość/Litry/Numer"/>
+<e k="mpManager_moneyinput_items_balance" v="Cena całkowita"/>
+<e k="mpManager_moneyinput_automaticIncome" v="Płatność automatyczna"/>
+<e k="mpManager_moneyinput_automaticIncome2" v="Płatność automatyczna - Koszty składowania"/>
 
 <!-- Home -->
-<e k="mpManager_home_items_farm" v="Farm"/>
-<e k="mpManager_home_items_farmleader" v="Farm Leader"/>
-<e k="mpManager_home_items_numPlayers" v="Number of employees"/>
-<e k="mpManager_home_items_vehicles" v="Vehicles owned"/>
-<e k="mpManager_home_items_animals" v="Animals owned"/>
-<e k="mpManager_home_items_balance" v="Bank balance"/>
+<e k="mpManager_home_items_farm" v="Farma"/>
+<e k="mpManager_home_items_farmleader" v="Kierownik farmy"/>
+<e k="mpManager_home_items_numPlayers" v="Liczba pracowników"/>
+<e k="mpManager_home_items_vehicles" v="Posiadane pojazdy"/>
+<e k="mpManager_home_items_animals" v="Posiadane zwierzęta"/>
+<e k="mpManager_home_items_balance" v="Saldo"/>
 
 <!-- Admin -->
-<e k="mpManager_AdminLogin_header" v="Administration - Login"/>
-<e k="mpManager_AdminLogin_text" v="Log into the administrator area using the admin password."/>
-<e k="mpManager_AdminLogin_text2" v="Incorrect Password."/>
-<e k="mpManager_AdminLogin_button" v="Login"/>
+<e k="mpManager_AdminLogin_header" v="Admin - Logowanie"/>
+<e k="mpManager_AdminLogin_text" v="Zaloguj się do strefy admina używając hasła admina."/>
+<e k="mpManager_AdminLogin_text2" v="Niepoprawne hasło."/>
+<e k="mpManager_AdminLogin_button" v="Zaloguj"/>
 
-<e k="mpManager_AdminMenu_1" v="Administration"/>
-<e k="mpManager_AdminMenu_2" v="Players"/>
-<e k="mpManager_AdminMenu_3" v="Farm"/>
-<e k="mpManager_AdminMenu_4" v="Other 1"/>
-<e k="mpManager_AdminMenu_5" v="Other 2"/>
+<e k="mpManager_AdminMenu_1" v="Admini"/>
+<e k="mpManager_AdminMenu_2" v="Gracze"/>
+<e k="mpManager_AdminMenu_3" v="Farma"/>
+<e k="mpManager_AdminMenu_4" v="Inne 1"/>
+<e k="mpManager_AdminMenu_5" v="Inne 2"/>
 
-<e k="mpManager_AdminHeader1" v="Password"/>
-<e k="mpManager_AdminHeader1_text" v="Set the password for the administrator area."/>
-<e k="mpManager_AdminHeader1_button" v="Confirm Password"/>
+<e k="mpManager_AdminHeader1" v="Hasło"/>
+<e k="mpManager_AdminHeader1_text" v="Ustal hasło dla strefy admina."/>
+<e k="mpManager_AdminHeader1_button" v="Potwierdź hasło"/>
 
-<e k="mpManager_AdminHeader2" v="Add New Administrators"/>
-<e k="mpManager_AdminHeader2_text" v="Create a new Administrator. (Please enter a name)"/>
-<e k="mpManager_AdminHeader2_button" v="Add Administrator"/>
+<e k="mpManager_AdminHeader2" v="Dodaj nowych adminów"/>
+<e k="mpManager_AdminHeader2_text" v="Tworzenie nowego admina. (Proszę wpisać nazwę)"/>
+<e k="mpManager_AdminHeader2_button" v="Dodaj admina"/>
 
-<e k="mpManager_AdminHeader3" v="Remove Administrators"/>
-<e k="mpManager_AdminHeader3_text" v="Remove Administrators."/>
-<e k="mpManager_AdminHeader3_button" v="Remove the selected Administrator"/>
-<e k="mpManager_AdminHeader3_header1" v="Name"/>
-<e k="mpManager_AdminHeader3_header2" v="Farm"/>
+<e k="mpManager_AdminHeader3" v="Usuwanie adminów"/>
+<e k="mpManager_AdminHeader3_text" v="Usuwanie adminów."/>
+<e k="mpManager_AdminHeader3_button" v="Usuń wybranego admina"/>
+<e k="mpManager_AdminHeader3_header1" v="Nazwa"/>
+<e k="mpManager_AdminHeader3_header2" v="Farma"/>
 
-<e k="mpManager_AdminHeader4" v="New Players"/>
-<e k="mpManager_AdminHeader4_text" v="Add a new player. (Please enter a name and select a farm.)"/>
-<e k="mpManager_AdminHeader4_button" v="Add Player"/>
+<e k="mpManager_AdminHeader4" v="Nowi gracze"/>
+<e k="mpManager_AdminHeader4_text" v="Dodawanie nowych graczy. (Proszę wpisać nazwę i wybrać farmę.)"/>
+<e k="mpManager_AdminHeader4_button" v="Dodaj gracza"/>
 
-<e k="mpManager_AdminHeader5" v="Remove and change players"/>
-<e k="mpManager_AdminHeader5_text" v="Remove players or change their name or assigned farm."/>
-<e k="mpManager_AdminHeader5_text1" v="Yes"/>
-<e k="mpManager_AdminHeader5_text2" v="No"/>
-<e k="mpManager_AdminHeader5_button1" v="Change Name"/>
-<e k="mpManager_AdminHeader5_button2" v="Change Farm"/>
-<e k="mpManager_AdminHeader5_button3" v="Remove Player"/>
-<e k="mpManager_AdminHeader5_header1" v="Name"/>
-<e k="mpManager_AdminHeader5_header2" v="Farm"/>
+<e k="mpManager_AdminHeader5" v="Zarządzanie graczami"/>
+<e k="mpManager_AdminHeader5_text" v="Usuń graczy, zmień ich nazwę lub przypisanie do farmy."/>
+<e k="mpManager_AdminHeader5_text1" v="Tak"/>
+<e k="mpManager_AdminHeader5_text2" v="Nie"/>
+<e k="mpManager_AdminHeader5_button1" v="Zmień nazwę"/>
+<e k="mpManager_AdminHeader5_button2" v="Zmień farmę"/>
+<e k="mpManager_AdminHeader5_button3" v="Usuń gracza"/>
+<e k="mpManager_AdminHeader5_header1" v="Nazwa"/>
+<e k="mpManager_AdminHeader5_header2" v="Farma"/>
 <e k="mpManager_AdminHeader5_header3" v="Admin"/>
 
-<e k="mpManager_AdminHeader6" v="New Farm"/>
-<e k="mpManager_AdminHeader6_text" v="Create a new farm. (Please enter name and select a Farm Leader.)"/>
-<e k="mpManager_AdminHeader6_button" v="Create Farm"/>
+<e k="mpManager_AdminHeader6" v="Nowa farma"/>
+<e k="mpManager_AdminHeader6_text" v="Stwórz nową farmę. (Proszę wpisać nazwę i wybrać kierownika.)"/>
+<e k="mpManager_AdminHeader6_button" v="Stwórz farmę"/>
 
-<e k="mpManager_AdminHeader7" v="Delete / Change Farm"/>
-<e k="mpManager_AdminHeader7_text" v="Delete Farm / Change Name / Change Leader of farm ."/>
-<e k="mpManager_AdminHeader7_button1" v="Change Name"/>
-<e k="mpManager_AdminHeader7_button2" v="Change Farm Leader"/>
-<e k="mpManager_AdminHeader7_button3" v="Change Capital"/>
-<e k="mpManager_AdminHeader7_button4" v="Delete Farm"/>
-<e k="mpManager_AdminHeader7_button5" v="Change Farm"/>
-<e k="mpManager_AdminHeader7_button6" v="Change Price"/>
-<e k="mpManager_AdminHeader7_header1" v="Name"/>
-<e k="mpManager_AdminHeader7_header2" v="Farm Leader"/>
-<e k="mpManager_AdminHeader7_header3" v="Capital"/>
+<e k="mpManager_AdminHeader7" v="Zarządzanie farmą"/>
+<e k="mpManager_AdminHeader7_text" v="Usuń, zmień nazwę, kapitał lub kierownika farmy."/>
+<e k="mpManager_AdminHeader7_button1" v="Zmień nazwę"/>
+<e k="mpManager_AdminHeader7_button2" v="Zmień kierownika"/>
+<e k="mpManager_AdminHeader7_button3" v="Zmień kapitał"/>
+<e k="mpManager_AdminHeader7_button4" v="Usuń farmę"/>
+<e k="mpManager_AdminHeader7_button5" v="Zmień farmę"/>
+<e k="mpManager_AdminHeader7_button6" v="Zmień cenę"/>
+<e k="mpManager_AdminHeader7_header1" v="Nazwa"/>
+<e k="mpManager_AdminHeader7_header2" v="Kierownik"/>
+<e k="mpManager_AdminHeader7_header3" v="Kapitał"/>
 
-<e k="mpManager_AdminHeader8" v="Delete Data"/>
-<e k="mpManager_AdminHeader8_text" v="Delete individual data if there are errors or if too much data has already accumulated."/>
-<e k="mpManager_AdminHeader8_button1" v="Shopping List"/>
-<e k="mpManager_AdminHeader8_button2" v="Sales List"/>
-<e k="mpManager_AdminHeader8_button3" v="Invoices"/>
-<e k="mpManager_AdminHeader8_button4" v="Transfers"/>
+<e k="mpManager_AdminHeader8" v="Usuń dane"/>
+<e k="mpManager_AdminHeader8_text" v="Usuń pojedyncze dane jeśli występują błędy lub jeśli zgromadzono już ich zbyt dużo."/>
+<e k="mpManager_AdminHeader8_button1" v="Lista zakupów"/>
+<e k="mpManager_AdminHeader8_button2" v="Lista sprzedaży"/>
+<e k="mpManager_AdminHeader8_button3" v="Faktury"/>
+<e k="mpManager_AdminHeader8_button4" v="Przelewy"/>
 
-<e k="mpManager_AdminInfo1" v="	You have to enter a password!"/>
-<e k="mpManager_AdminInfo2" v="	The password was successfully changed!"/>
-<e k="mpManager_AdminInfo3" v="	You must enter a name!"/>
-<e k="mpManager_AdminInfo4" v="	%s is now an Administrator."/>
-<e k="mpManager_AdminInfo5" v="	You are not an Administrator!"/>
-<e k="mpManager_AdminInfo6" v="	%s is now a new player."/>
-<e k="mpManager_AdminInfo7" v="	%s is the Farm Leader and can not be removed."/>
-<e k="mpManager_AdminInfo8" v="	Name has been changed to %s."/>
-<e k="mpManager_AdminInfo9" v="	The name of the farm was changed to %s."/>
-<e k="mpManager_AdminInfo10" v="%s is the head of the farm and can not be removed. "/>
-<e k="mpManager_AdminInfo11" v="The name of the farm changed to %s."/>
-<e k="mpManager_AdminInfo12" v="No players free."/>
-<e k="mpManager_AdminInfo13" v="The head of the farm is now %s"/>
-<e k="mpManager_AdminInfo14" v="There must be at least one farm!"/>
-<e k="mpManager_AdminInfo15" v="%s is now a new farm."/>
-<e k="mpManager_AdminInfo16" v="There is no farm manager available!"/>
-<e k="mpManager_AdminInfo17" v="Capital successfully changed!"/>
-<e k="mpManager_AdminInfo18" v="Invalid entry!"/>
-<e k="mpManager_AdminInfo19" v="Only the head of the farm can do invoices!"/>
-<e k="mpManager_AdminInfo20" v="Only the head of the farm can do transfers!"/>
-<e k="mpManager_AdminInfo21" v="You are not the Farm Leader!"/>
+<e k="mpManager_AdminInfo1" v="Musisz wpisać hasło!"/>
+<e k="mpManager_AdminInfo2" v="Hasło zostało poprawnie zmienione!"/>
+<e k="mpManager_AdminInfo3" v="Musisz wpisać nazwę!"/>
+<e k="mpManager_AdminInfo4" v="%s jest teraz adminem."/>
+<e k="mpManager_AdminInfo5" v="Nie jesteś adminem!"/>
+<e k="mpManager_AdminInfo6" v="Dodano pomyślnie nowego gracza %s."/>
+<e k="mpManager_AdminInfo7" v="%s jest kierownikiem farmy i nie można go usunąć."/>
+<e k="mpManager_AdminInfo8" v="Zmieniono nazwę na %s."/>
+<e k="mpManager_AdminInfo9" v="Zmieniono nazwę farmy na %s."/>
+<e k="mpManager_AdminInfo10" v="%s jest prezesem farmy i nie można go usunąć."/>
+<e k="mpManager_AdminInfo11" v="Zmieniono nazwę farmy na %s."/>
+<e k="mpManager_AdminInfo12" v="Brak wolnych graczy."/>
+<e k="mpManager_AdminInfo13" v="Prezesem farmy jest teraz %s"/>
+<e k="mpManager_AdminInfo14" v="Musi być przynajmniej jedna farma!"/>
+<e k="mpManager_AdminInfo15" v="Stworzono nową farmę %s."/>
+<e k="mpManager_AdminInfo16" v="Nie ma graczy, którzy mogliby zostać kierownikiem farmy!"/>
+<e k="mpManager_AdminInfo17" v="Kapitał został pomyślnie zmieniony!"/>
+<e k="mpManager_AdminInfo18" v="Niewłaściwy wpis!"/>
+<e k="mpManager_AdminInfo19" v="Tylko prezes farmy może wystawiać faktury!"/>
+<e k="mpManager_AdminInfo20" v="Tylko prezes farmy może robić przelewy!"/>
+<e k="mpManager_AdminInfo21" v="Nie jesteś kierownikiem farmy!"/>
 
-<e k="mpManager_AdminCheck1" v="Remove '%s' as Administrator?"/>
-<e k="mpManager_AdminCheck2" v="Remove '%s' as Player/User?"/>
-<e k="mpManager_AdminCheck3" v="Remove '%s' as Farm?"/>
-<e k="mpManager_AdminCheck4" v="Delete all shopping lists?"/>
-<e k="mpManager_AdminCheck5" v="Clear all sales lists?"/>
-<e k="mpManager_AdminCheck6" v="Delete all invoices?"/>
-<e k="mpManager_AdminCheck7" v="Delete all transfers?"/>
+<e k="mpManager_AdminCheck1" v="Usunąć admina '%s'?"/>
+<e k="mpManager_AdminCheck2" v="Usunąć gracza '%s'?"/>
+<e k="mpManager_AdminCheck3" v="Usunąć farmę '%s'?"/>
+<e k="mpManager_AdminCheck4" v="Usunąć całą listę zakupów?"/>
+<e k="mpManager_AdminCheck5" v="Usunąć całą listę sprzedaży?"/>
+<e k="mpManager_AdminCheck6" v="Usunąć wszystkie faktury?"/>
+<e k="mpManager_AdminCheck7" v="Usunąć wszystkie przelewy?"/>
 
-<e k="mpManager_AdminInput1_header" v="MP-Manager - Manage Player"/>
-<e k="mpManager_AdminInput1_text" v="Change the players name"/>
+<e k="mpManager_AdminInput1_header" v="MP-Manager - Zarządzanie graczem"/>
+<e k="mpManager_AdminInput1_text" v="Zmień nazwę gracza"/>
 <e k="mpManager_AdminInput1_button" v="Ok"/>
-<e k="mpManager_AdminInput2_header" v="MP-Manager - Manage Player"/>
-<e k="mpManager_AdminInput2_text" v="Change the farm associated with %s"/>
+<e k="mpManager_AdminInput2_header" v="MP-Manager - Zarządzanie graczem"/>
+<e k="mpManager_AdminInput2_text" v="Zmień farmę, na której pracuje %s"/>
 <e k="mpManager_AdminInput2_button" v="Ok"/>
 
-<e k="mpManager_AdminInput3_header" v="MP-Manager - Change Farm"/>
-<e k="mpManager_AdminInput3_text" v="Change the Farm Leader"/>
+<e k="mpManager_AdminInput3_header" v="MP-Manager - Zmiana farmy"/>
+<e k="mpManager_AdminInput3_text" v="Zmień nazwę farmy"/>
 <e k="mpManager_AdminInput3_button" v="Ok"/>
 
-<e k="mpManager_AdminInput4_header" v="MP-Manager - Change Farm Leader"/>
-<e k="mpManager_AdminInput4_text" v="Change the Leader of the farm."/>
+<e k="mpManager_AdminInput4_header" v="MP-Manager - Zmiana kierownika farmy"/>
+<e k="mpManager_AdminInput4_text" v="Zmień kierownika farmy."/>
 <e k="mpManager_AdminInput4_button" v="Ok"/>
 
-<e k="mpManager_AdminInput5_header" v="MP-Manager - Change Capital"/>
-<e k="mpManager_AdminInput5_text" v="Change the Capital of the farm."/>
+<e k="mpManager_AdminInput5_header" v="MP-Manager - Zmiana kapitału"/>
+<e k="mpManager_AdminInput5_text" v="Zmień kapitał farmy."/>
 <e k="mpManager_AdminInput5_button" v="Ok"/>
 
 <!-- Assignables -->
-<e k="Assignables_notAssigned" v="Everyone"/>
-<e k="Assignables_milkSell" v="Automatic Milk Sales"/>
-<e k="Assignables_noVehicleEnter" v="This vehicle is not yours!"/>
+<e k="Assignables_notAssigned" v="Wszystkie"/>
+<e k="Assignables_milkSell" v="Automatyczna sprzedaż mleka"/>
+<e k="Assignables_noVehicleEnter" v="Ten pojazd nie jest twój!"/>
 
 <!-- MoneyStats -->
-<e k="workerCost" v="Salary costs"/>
-<e k="worker" v="Employee"/>
+<e k="workerCost" v="Koszty wynagrodzeń"/>
+<e k="worker" v="Pracownik"/>
 
 <!-- Settings Admin -->
-<e k="settings_1_header" v="Shared buildings revenue dispersement"/>
-<e k="settings_1_1" v="Every hour"/>
-<e k="settings_1_2" v="Daily"/>
+<e k="settings_1_header" v="Dzielenie dochodów ze wspólnych budynków"/>
+<e k="settings_1_1" v="Co godzinę"/>
+<e k="settings_1_2" v="Codziennie"/>
 
-<e k="settings_20_1" v="Everyone"/>
-<e k="settings_20_2" v="Farm Leader"/>
-<e k="settings_21_header" v="Create Invoices"/>
-<e k="settings_22_header" v="Pay Accounts"/>
-<e k="settings_23_header" v="Create a transfer"/>
+<e k="settings_20_1" v="Wszyscy"/>
+<e k="settings_20_2" v="Kierownik farmy"/>
+<e k="settings_21_header" v="Wystaw fakturę"/>
+<e k="settings_22_header" v="Rachunki do zapłaty"/>
+<e k="settings_23_header" v="Zleć przelew"/>
 
 <!-- Settings -->
-<e k="mpManager_SettingsMenu_1" v="Schedule - Objects"/>
-<e k="mpManager_SettingsMenu_2" v="Schedule - Vehicles"/>
-<e k="mpManager_SettingsMenu_3" v="Schedule - Animals"/>
+<e k="mpManager_SettingsMenu_1" v="Harmonogram - Obiekty"/>
+<e k="mpManager_SettingsMenu_2" v="Harmonogram - Pojazdy"/>
+<e k="mpManager_SettingsMenu_3" v="Harmonogram - Zwierzęta"/>
+<e k="mpManager_SettingsMenu_4" v="Harmonogram - Ceny"/>
 
-<e k="mpManager_SettingsHeader1" v="Schedule - Objects"/>
-<e k="mpManager_SettingsHeader1_text" v="Divide revenue from objects. In 'each' all farms will get an equal percentage."/>
-<e k="mpManager_SettingsHeader1_header1" v="Objects"/>
-<e k="mpManager_SettingsHeader1_header2" v="Affiliation"/>
+<e k="mpManager_SettingsHeader1" v="Harmonogram - Obiekty"/>
+<e k="mpManager_SettingsHeader1_text" v="Podziel przychody z obiektów. Dla 'Wszystkie', wszystkie farmy otrzymają taki sam procent."/>
+<e k="mpManager_SettingsHeader1_header1" v="Obiekty"/>
+<e k="mpManager_SettingsHeader1_header2" v="Przynależność"/>
 
-<e k="mpManager_SettingsHeader2" v="Schedule - Vehicles and Devices"/>
-<e k="mpManager_SettingsHeader2_text" v="Indicates who owns each vehicle. All players can use vehicles listed in 'Everyone'."/> <!-- CHaWo / Kevin -->
-<e k="mpManager_SettingsHeader2_header1" v="Vehicle"/>
-<e k="mpManager_SettingsHeader2_header2" v="Affiliation"/>
+<e k="mpManager_SettingsHeader2" v="Harmonogram - Pojazdy i narzędzia"/>
+<e k="mpManager_SettingsHeader2_text" v="Ustala, kto jest właścicielem danego pojazdu. Wszyscy gracze mogą korzystać z pojazdów przypisanych jako 'Wszyscy'."/>
+<e k="mpManager_SettingsHeader2_header1" v="Pojazdy"/>
+<e k="mpManager_SettingsHeader2_header2" v="Przynależność"/>
 
-<e k="mpManager_SettingsHeader3" v="Schedule - Animals"/>
-<e k="mpManager_SettingsHeader3_text" v="Determine how many animals you have."/>
-<e k="mpManager_SettingsHeader3_text1" v="Number of unassigned animals:"/>
+<e k="mpManager_SettingsHeader3" v="Harmonogram - Zwierzęta"/>
+<e k="mpManager_SettingsHeader3_text" v="Określ, ile masz własnych zwierząt."/>
+<e k="mpManager_SettingsHeader3_text1" v="Liczba nieprzydzielonych zwierząt:"/>
 <e k="mpManager_settings_husbandry" v="Ok"/>
 
-<e k="mpManager_SettingsHeader4" v="Farm Price"/>
-<e k="mpManager_SettingsHeader4_text" v="Set your own prices!"/>
-<e k="mpManager_SettingsHeader4_header1" v="Genre"/>
-<e k="mpManager_SettingsHeader4_header2" v="Price"/>
+<e k="mpManager_SettingsHeader4" v="Harmonogram - Ceny"/>
+<e k="mpManager_SettingsHeader4_text" v="Ustaw/Dostosuj własne ceny usług rolnych."/>
+<e k="mpManager_SettingsHeader4_header1" v="Rodzaj"/>
+<e k="mpManager_SettingsHeader4_header2" v="Cena"/>
 
-<e k="mpManager_SettingsInput1_header" v="MP-Manager - Change Building Assignment"/>
-<e k="mpManager_SettingsInput1_text" v="Change allocation of building %s"/>
-<e k="mpManager_SettingsInput1_button" v="Change"/>
+<e k="mpManager_SettingsInput1_header" v="MP-Manager - Zmiana przynależności budynków"/>
+<e k="mpManager_SettingsInput1_text" v="Zmień przynależność budynku %s"/>
+<e k="mpManager_SettingsInput1_button" v="Zmień"/>
 
-<e k="mpManager_SettingsInput2_header" v="MP-Manager - Change Vehicle assignment"/>
-<e k="mpManager_SettingsInput2_text" v="Change allocation vehicle %s"/>
-<e k="mpManager_SettingsInput2_button" v="Change"/>
+<e k="mpManager_SettingsInput2_header" v="MP-Manager - Zmiana przynależności pojazdów"/>
+<e k="mpManager_SettingsInput2_text" v="Zmień przynależność pojazdu %s"/>
+<e k="mpManager_SettingsInput2_button" v="Zmień"/>
 
-<e k="mpManager_SettingsInput4_header" v="MP-Manager - Change Farm Prices"/>
-<e k="mpManager_SettingsInput4_text" v="Change Farm %s price"/>
-<e k="mpManager_SettingsInput4_button" v="Change"/>
+<e k="mpManager_SettingsInput4_header" v="MP-Manager - Zmiana cen usług rolnych"/>
+<e k="mpManager_SettingsInput4_text" v="Zmień cenę %s"/>
+<e k="mpManager_SettingsInput4_button" v="Zmień"/>
 
-<e k="mpManager_SettingsInfo1" v="Value successfully updated!"/>
-<e k="mpManager_SettingsInfo2" v="Please enter a number!"/>
+<e k="mpManager_SettingsInfo1" v="Wartość zaktualizowana pomyślnie!"/>
+<e k="mpManager_SettingsInfo2" v="Proszę wpisać liczbę!"/>
 
 <!-- MoneyAssignment -->
-<e k="mpManager_MoneyAssignment_header" v="Assignment of money"/>
-<e k="mpManager_MoneyAssignment_textNeg" v="Did you just sell something? If yes, please confirm with 'yes'! Optionally, a farm can be chosen where the money should go."/>
-<e k="mpManager_MoneyAssignment_textPos" v="Did you just buy something? If yes, confirm with 'yes'! Optionally, a farm can be chosen where the money should go."/> <!-- Does this remove money from the farm?? 
-																																	Should it be 'Optionally, a farm can be chosen where the money should be removed from. -->
-<e k="mpManager_MoneyAssignment_train" v="Sale at Trains"/>
-<e k="mpManager_MoneyAssignment_siloExtension" v="Silo Extension Sales"/>
-<e k="mpManager_MoneyAssignment_handtool" v="Hand Tools Sales "/>
-<e k="mpManager_MoneyAssignment_placeable" v="Placeable Objects Sales "/>
-<e k="mpManager_MoneyAssignment_vehicle" v="Vehicle Sales "/>
-<e k="mpManager_MoneyAssignment_baledestroytrigger" v="Bale Sales"/>
-<e k="mpManager_MoneyAssignment_palletTrigger" v="Pallet Sales"/>
-<e k="mpManager_MoneyAssignment_pickupObectsSellTrigger" v="Pickup Object Sales"/>
+<e k="mpManager_MoneyAssignment_header" v="Przypisywanie pieniędzy"/>
+<e k="mpManager_MoneyAssignment_textNeg" v="Czy właśnie coś sprzedałeś? Jeśli tak, proszę potwierdzić 'Tak'! Opcjonalnie możesz wybrać farmę, na której konto powinny zostać przelane pieniądze."/>
+<e k="mpManager_MoneyAssignment_textPos" v="Czy właśnie coś kupiłeś? Jeśli tak, potwierdź 'Tak'! Opcjonalnie możesz wybrać farmę, z konta której powinny zostać pobrane pieniądze."/>
+<e k="mpManager_MoneyAssignment_train" v="Sprzedaż pociągami"/>
+<e k="mpManager_MoneyAssignment_siloExtension" v="Sprzedaż Silo Extension"/>
+<e k="mpManager_MoneyAssignment_handtool" v="Sprzedaż narzędzi ręcznych"/>
+<e k="mpManager_MoneyAssignment_placeable" v="Sprzedaż obiektów kupowanych"/>
+<e k="mpManager_MoneyAssignment_vehicle" v="Sprzedaż pojazdów"/>
+<e k="mpManager_MoneyAssignment_baledestroytrigger" v="Sprzedaż bel"/>
+<e k="mpManager_MoneyAssignment_palletTrigger" v="Sprzedaż palet"/>
+<e k="mpManager_MoneyAssignment_pickupObectsSellTrigger" v="Sprzedaż małych obiektów"/>
 
-<e k="mpManager_Bill_header" v="New Account"/>
-<e k="mpManager_Bill_header01" v="Select Address:"/>
-<e k="mpManager_Bill_header02" v="Create a new Entry:"/>
-<e k="mpManager_Bill_header03" v="Leistung:"/> <!-- Payment???? -->
-<e k="mpManager_Bill_header04" v="Place:"/>
-<e k="mpManager_Bill_header05" v="Amount:"/>
-<e k="mpManager_Bill_header06" v="Invoice Number."/>
-<e k="mpManager_Bill_info01" v="I would like thank you for the good cooperation and I accept the following service :"/>
-<e k="mpManager_Bill_info02" v="Invoice Generator LS-Modcompany 2018"/>
-<e k="mpManager_Bill_info03" v="Nothing Selected"/>
-<e k="mpManager_Bill_info04" v="Are you sure you want to delete this invoice?"/>
-<e k="mpManager_Bill_listHeader01" v="Point of sale."/> <!-- ??? -->
-<e k="mpManager_Bill_listHeader02" v="Amount"/>
-<e k="mpManager_Bill_listHeader03" v="Unit/$"/>
-<e k="mpManager_Bill_listHeader04" v="Gesamt/$"/> <!-- ??? -->
-<e k="mpManager_Bill_listHeader05" v="Total:"/>
-<e k="mpManager_Bill_button01" v="Reset Invoice"/>
-<e k="mpManager_Bill_button02" v="Send Invoice"/>
-<e k="mpManager_Bill_button03" v="Abort"/>
-<e k="mpManager_Bill_button04" v="Leistung wählen"/> <!-- ??? -->
-<e k="mpManager_Bill_button05" v="Ort wählen"/> <!-- Choose location -->
-<e k="mpManager_Bill_button06" v="Anzahl wählen"/> <!-- Select quantity -->
-<e k="mpManager_Bill_button07" v="Add entry"/>
-<e k="mpManager_Bill_button08" v="Bezahlen"/> <!-- Pay -->
-<e k="mpManager_Bill_button09" v="Delete"/>
+<e k="mpManager_Bill_header" v="Nowa faktura"/>
+<e k="mpManager_Bill_header01" v="Wybierz odbiorcę:"/>
+<e k="mpManager_Bill_header02" v="Stwórz nowy wpis:"/>
+<e k="mpManager_Bill_header03" v="Usługa:"/>
+<e k="mpManager_Bill_header04" v="Lokalizacja:"/>
+<e k="mpManager_Bill_header05" v="Ilość:"/>
+<e k="mpManager_Bill_header06" v="Numer faktury:"/>
+<e k="mpManager_Bill_info01" v="Chciałbym podziękować za dobrą współpracę. Zaakceptuj fakturę za następujące usługi:"/>
+<e k="mpManager_Bill_info02" v="Generator faktur LS-Modcompany 2018"/>
+<e k="mpManager_Bill_info03" v="Nic nie wybrano"/>
+<e k="mpManager_Bill_info04" v="Czy na pewno chcesz usunąć tę fakturę?"/>
+<e k="mpManager_Bill_listHeader01" v="Lp"/>
+<e k="mpManager_Bill_listHeader02" v="Ilość"/>
+<e k="mpManager_Bill_listHeader03" v="Cena/jednostkę"/>
+<e k="mpManager_Bill_listHeader04" v="Cena końcowa"/>
+<e k="mpManager_Bill_listHeader05" v="Razem:"/>
+<e k="mpManager_Bill_button01" v="Zresetuj fakturę"/>
+<e k="mpManager_Bill_button02" v="Wyślij fakturę"/>
+<e k="mpManager_Bill_button03" v="Anuluj"/>
+<e k="mpManager_Bill_button04" v="Wybierz usługę"/>
+<e k="mpManager_Bill_button05" v="Wybierz lokalizację"/>
+<e k="mpManager_Bill_button06" v="Wybierz ilość"/>
+<e k="mpManager_Bill_button07" v="Dodaj wpis"/>
+<e k="mpManager_Bill_button08" v="Zapłacić"/>
+<e k="mpManager_Bill_button09" v="Usuń"/>
 
-<e k="mpManager_Bills_item1" v="Rechnungs-Id"/> <!-- ??? -->
-<e k="mpManager_Bills_item2" v="Recipient"/>
-<e k="mpManager_Bills_item3" v="Sender"/>
-<e k="mpManager_Bills_item4" v="Anzahl Einträge"/><!-- ??? -->
-<e k="mpManager_Bills_item5" v="Total Price"/>
+<e k="mpManager_Bills_item1" v="Faktura-ID"/>
+<e k="mpManager_Bills_item2" v="Odbiorca"/>
+<e k="mpManager_Bills_item3" v="Nadawca"/>
+<e k="mpManager_Bills_item4" v="Liczba wpisów"/>
+<e k="mpManager_Bills_item5" v="Cena całkowita"/>
 <e k="mpManager_Bills_item6" v="Status"/>
 
-<e k="mpManager_Selection_button01" v="Abort"/>
+<e k="mpManager_Selection_button01" v="Anuluj"/>
 <e k="mpManager_Selection_button02" v="OK"/>
 
-<e k="billsState_1" v="Unpaid"/>
-<e k="billsState_2" v="Paid"/>
+<e k="billsState_1" v="Nie zapłacone"/>
+<e k="billsState_2" v="Zapłacone"/>
 
-<e k="unit_Stk" v="Piece"/>
-<e k="unit_ha" v="Hectare"/>
-<e k="unit_Std" v="Hours"/>
-<e k="unitS_Stk" v="Pcs."/>
-<e k="unitS_ha" v="HA"/>
-<e k="unitS_Std" v="Hrs"/>
+<e k="unit_Stk" v="sztuki"/>
+<e k="unit_ha" v="hektary"/>
+<e k="unit_Std" v="godziny"/>
+<e k="unitS_Stk" v="szt."/>
+<e k="unitS_ha" v="ha"/>
+<e k="unitS_Std" v="godz."/>
 
-<e k="work_flow_item1" v="Leistung"/>
-<e k="work_flow_item2" v="Unit"/>
-<e k="work_flow_item3" v="Cost/Unit"/>
-<e k="work_flow_item4" v="Location"/>
-<e k="work_flow_item5" v="Anzahl"/> <!-- Change --><!-- ??? -->
+<e k="work_flow_item1" v="Usługa"/>
+<e k="work_flow_item2" v="Jednostka"/>
+<e k="work_flow_item3" v="Koszt/jednostkę"/>
+<e k="work_flow_item4" v="Lokalizacja"/>
+<e k="work_flow_item5" v="Numer"/>
 
-<e k="work_additionalCost" v="Additional costs"/>
+<e k="work_additionalCost" v="Dodatkowe koszty"/>
 
-<e k="work_bale1" v="Buy Bales & Deliver"/>
-<e k="work_bale2" v="Bale loading & delivery"/>
-<e k="work_bale3" v="Wrap bales"/>
+<e k="work_bale1" v="Kup bele i dostawę"/>
+<e k="work_bale2" v="Załadunek i dostawa bel"/>
+<e k="work_bale3" v="Owijanie bele"/>
 
-<e k="work_field1" v="Plowing"/>
-<e k="work_field2" v="Cultivate"/>
-<e k="work_field3" v="Striegeln"/>  <!-- ???? -->
-<e k="work_field4" v="Organic Fertilization"/>
-<e k="work_field5" v="Chemical Fertilization"/>
-<e k="work_field6" v="Sow / Seed"/>
-<e k="work_field7" v="Thrash / Harvest"/>
-<e k="work_field8" v="Shredding / Chop"/>
-<e k="work_field9" v="Harvest Potatoes / Sugar Beet"/>
-<e k="work_field10" v="Mowing - Swaths"/>
-<e k="work_field11" v="Mähen - Zetten - Schwaden"/>  <!-- ???? -->
-<e k="work_field12" v="Press / Bale"/>
+<e k="work_field1" v="Orka"/>
+<e k="work_field2" v="Kultywacja"/>
+<e k="work_field3" v="Przetrząsanie"/>
+<e k="work_field4" v="Ekologiczne nawożenie"/>
+<e k="work_field5" v="Chemiczne nawożenie"/>
+<e k="work_field6" v="Siew/Sadzenie"/>
+<e k="work_field7" v="Koszenie zboża"/>
+<e k="work_field8" v="Rozdrabnianie drewna"/>
+<e k="work_field9" v="Wykop ziemniaków/buraków cukrowych"/>
+<e k="work_field10" v="Koszenie - Zgrabianie"/>
+<e k="work_field11" v="Koszenie - Przetrząsanie - Zgrabianie"/>
+<e k="work_field12" v="Prasowanie"/>
 
-<e k="work_add1" v="Feeding Works"/>
-<e k="work_add2" v="Clean Stable"/>
-<e k="work_add3" v="Remove Snow"/>
-<e k="work_add4" v="Hand Labor"/>
-<e k="work_add5" v="Shovel Work"/>
+<e k="work_add1" v="Karmienie"/>
+<e k="work_add2" v="Czyszczenie obory"/>
+<e k="work_add3" v="Usuwanie śniegu"/>
+<e k="work_add4" v="Prace ręczne"/>
+<e k="work_add5" v="Prace łychą"/>
 
-<e k="work_trees1" v="Plant Trees"/>
-<e k="work_trees2" v="Harvest Trees"/>
-<e k="work_trees3" v="Remove Tree Stumps"/>
+<e k="work_trees1" v="Sadzenie drzew"/>
+<e k="work_trees2" v="Ścinka drzew"/>
+<e k="work_trees3" v="Usuwanie pni"/>
 
-<e k="work_drive1" v="Abfahren"/><!-- ???? -->
-<e k="work_drive2" v="Silo festfahren"/><!-- ???? -->
-<e k="work_drive3" v="Deliver"/>
+<e k="work_drive1" v="Odwożenie"/>
+<e k="work_drive2" v="Ubijanie silosu"/>
+<e k="work_drive3" v="Dostarczanie"/>
 <e k="work_drive4" v="Transport"/>
-<e k="work_drive5" v="Transport Livestock"/>
+<e k="work_drive5" v="Transport zwierząt"/>
+<e k="work_drive6" v="Wynajem pojazdu"/>
 
-<e k="mpManager_Transfer_text00" v="New Transfer"/>
-<e k="mpManager_Transfer_text01" v="SEPA - Credit Transfer"/><!-- ???? -->
-<e k="mpManager_Transfer_text02" v="/Receipt"/>
-<e k="mpManager_Transfer_text03" v="For transfers in Germany and other EU / EEA countries in Euro."/>
-<e k="mpManager_Transfer_text04" v="Recipient"/>
-<e k="mpManager_Transfer_text05" v="Verwendungszweck"/><!-- ???? -->
-<e k="mpManager_Transfer_text06" v="Noch Verwendungszweck"/><!-- ???? -->
-<e k="mpManager_Transfer_text07" v="Quantity"/>
-<e k="mpManager_Transfer_text08" v="Date"/>
-<e k="mpManager_Transfer_text09" v="Unterschrift"/>
-<e k="mpManager_Transfer_text16" v="Empänger wählen:"/>
-<e k="mpManager_Transfer_text17" v="Verwendungszweck:"/>
-<e k="mpManager_Transfer_text18" v="Noch Verwendungszweck:"/>
-<e k="mpManager_Transfer_text19" v="Quantity:"/>
-<e k="mpManager_Transfer_text20" v="Written transfer"/><!-- ???? -->
-<e k="mpManager_Transfer_text21" v="Received Transfer"/><!-- ???? -->
-<e k="mpManager_Transfer_text22" v="Invoice Number %s"/>
-<e k="mpManager_Transfer_text23" v="Do you really  want to delete this transfer?"/>
-<e k="mpManager_Transfer_button01" v="Send Transfer"/>
-<e k="mpManager_Transfer_button02" v="Abort"/>
-<e k="mpManager_Transfer_button03" v="Delete"/>
-<e k="mpManager_Transfer_item1" v="Transfer-Id"/>
-<e k="mpManager_Transfer_item2" v="Date"/>
-<e k="mpManager_Transfer_item3" v="Recipient"/>
-<e k="mpManager_Transfer_item4" v="Sender"/>
-<e k="mpManager_Transfer_item5" v="Verwendungszweck"/><!-- ???? -->
-<e k="mpManager_Transfer_item6" v="Quantity"/>
+<e k="mpManager_Transfer_text00" v="Nowy przelew"/>
+<e k="mpManager_Transfer_text01" v="SEPA"/>
+<e k="mpManager_Transfer_text02" v="Blankiet przelewu"/>
+<e k="mpManager_Transfer_text03" v="Dotyczy transferów w Niemczech i innych krajach UE/EOG."/>
+<e k="mpManager_Transfer_text04" v="Odbiorca"/>
+<e k="mpManager_Transfer_text05" v="Opis"/>
+<e k="mpManager_Transfer_text06" v="Dodatkowy opis"/>
+<e k="mpManager_Transfer_text07" v="Kwota"/>
+<e k="mpManager_Transfer_text08" v="Data"/>
+<e k="mpManager_Transfer_text09" v="Podpis"/>
+<e k="mpManager_Transfer_text16" v="Wybierz odbiorcę:"/>
+<e k="mpManager_Transfer_text17" v="Opis:"/>
+<e k="mpManager_Transfer_text18" v="Dodatkowy opis:"/>
+<e k="mpManager_Transfer_text19" v="Kwota:"/>
+<e k="mpManager_Transfer_text20" v="Wysłano przelew"/>
+<e k="mpManager_Transfer_text21" v="Otrzymano przelew"/>
+<e k="mpManager_Transfer_text22" v="Numer faktury %s"/>
+<e k="mpManager_Transfer_text23" v="Czy na pewno chcesz usunąć ten przelew?"/>
+<e k="mpManager_Transfer_button01" v="Wyślij przelew"/>
+<e k="mpManager_Transfer_button02" v="Anuluj"/>
+<e k="mpManager_Transfer_button03" v="Usuń"/>
+<e k="mpManager_Transfer_item1" v="Przelew-ID"/>
+<e k="mpManager_Transfer_item2" v="Data"/>
+<e k="mpManager_Transfer_item3" v="Odbiorca"/>
+<e k="mpManager_Transfer_item4" v="Nadawca"/>
+<e k="mpManager_Transfer_item5" v="Opis"/>
+<e k="mpManager_Transfer_item6" v="Kwota"/>
 
 <!-- Web -->
-<e k="mpManager_web_button" v="Open MpManagerWeb"/>
+<e k="mpManager_web_button" v="Otwórz MpManagerWeb"/>
 <e k="mpManager_web_header" v="MpManagerWeb"/>
-
-<e k="mpManager_web_text" v="MpManagerWeb ist für diesen Mod die passende Erweiterung. Dabei handelt es sich um eine eigene Website.
-Dort werden alle Daten übersichtlich dargestellt. So kann man auch unterwegs den aktuellen Stand kontrollieren.
-Probier es aus! Wenn du auf dem Server eingeloggt bist, musst du nur unten auf den Button klicken und dann wird nur noch ein Passwort gebraucht.
-Dieses musst du dann mit dem Link (der schon automatisch eingetragen wird) deinen anderen Mitspielern geben, damit diese sich auch einloggen können."/><!-- ???? -->
+<e k="mpManager_web_text" v="MpManagerWeb jest bezpośrednim rozszerzeniem tego modu. Jest to własna strona internetowa.
+Są tam wyświetlone wyraźniej wszystkie dane. Możesz sprawdzić aktualny stan podczas przeglądania.
+Wypróbuj! Jeśli jesteś zalogowany na serwerze dedykowanym, wystarczy kliknąć przycisk poniżej, a wtedy będzie potrzebne tylko hasło.
+Aby inni gracze również mogli się zalogować musisz podać im je z linkiem (który jest już wprowadzony automatycznie)."/>
 
 </elements></l10n>
